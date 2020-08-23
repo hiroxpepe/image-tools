@@ -4,9 +4,9 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ImageCutToolCore;
+using ImageCutLib;
 
-namespace ImageCutToolView {
+namespace ImageCut {
 
     public partial class MainForm : Form {
 

@@ -2,7 +2,7 @@
 using System.Drawing.Imaging;
 // System.Windows.Forms を持ち込まない。
 
-namespace ImageCutToolCore {
+namespace ImageCutLib {
 
     /// <summary>
     /// 画像切り出し処理を行うクラスです。

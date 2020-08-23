@@ -7,8 +7,8 @@
     <ProjectGuid>{58491E59-5D5D-450E-A35E-9A66C46EE86F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ImageCutToolCore</RootNamespace>
-    <AssemblyName>ImageCutToolCore</AssemblyName>
+    <RootNamespace>ImageCutLib</RootNamespace>
+    <AssemblyName>ImageCutLib</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

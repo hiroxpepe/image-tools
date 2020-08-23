@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ImageCutToolCore {
+namespace ImageCutLib {
 
     /// <summary>
     /// 設定を保持するオブジェクトです。

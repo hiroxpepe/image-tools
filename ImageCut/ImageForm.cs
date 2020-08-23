@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using ImageCutToolCore;
+using ImageCutLib;
 
-namespace ImageCutToolView {
+namespace ImageCut {
 
     public partial class ImageForm : Form {
 
