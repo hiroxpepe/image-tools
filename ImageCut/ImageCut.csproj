@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{58018C4F-C459-487F-B049-F9D08E292F41}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ImageCutToolView</RootNamespace>
-    <AssemblyName>ImageCutToolView</AssemblyName>
+    <RootNamespace>ImageCut</RootNamespace>
+    <AssemblyName>ImageCut</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -99,9 +99,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ImageCutToolCore\ImageCutToolCore.csproj">
+    <ProjectReference Include="..\ImageCutLib\ImageCutLib.csproj">
       <Project>{58491e59-5d5d-450e-a35e-9a66c46ee86f}</Project>
-      <Name>ImageCutToolCore</Name>
+      <Name>ImageCutLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

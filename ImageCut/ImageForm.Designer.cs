@@ -1,4 +1,4 @@
-﻿namespace ImageCutToolView {
+﻿namespace ImageCut {
     partial class ImageForm {
         /// <summary>
         /// Required designer variable.

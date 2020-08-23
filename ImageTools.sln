@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCutToolView", "ImageCutToolView\ImageCutToolView.csproj", "{58018C4F-C459-487F-B049-F9D08E292F41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCut", "ImageCut\ImageCut.csproj", "{58018C4F-C459-487F-B049-F9D08E292F41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCutToolCore", "ImageCutToolCore\ImageCutToolCore.csproj", "{58491E59-5D5D-450E-A35E-9A66C46EE86F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageCutLib", "ImageCutLib\ImageCutLib.csproj", "{58491E59-5D5D-450E-A35E-9A66C46EE86F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

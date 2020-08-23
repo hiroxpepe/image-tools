@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace ImageCutToolView {
+namespace ImageCut {
 
     /// <summary>
     /// クリップボードを監視するクラスです。

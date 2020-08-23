@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Configuration;
 
-namespace ImageCutToolView {
+namespace ImageCut {
 
     public static class AppConfigUtil {
 

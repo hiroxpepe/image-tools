@@ -1,4 +1,4 @@
-﻿namespace ImageCutToolView {
+﻿namespace ImageCut {
     partial class MainForm {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -53,9 +53,9 @@
             // 
             // pictureBoxThumbnail
             // 
-            this.pictureBoxThumbnail.Location = new System.Drawing.Point(12, 7);
+            this.pictureBoxThumbnail.Location = new System.Drawing.Point(14, 7);
             this.pictureBoxThumbnail.Name = "pictureBoxThumbnail";
-            this.pictureBoxThumbnail.Size = new System.Drawing.Size(320, 180);
+            this.pictureBoxThumbnail.Size = new System.Drawing.Size(366, 193);
             this.pictureBoxThumbnail.TabIndex = 2;
             this.pictureBoxThumbnail.TabStop = false;
             this.pictureBoxThumbnail.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBoxThumbnail_DragDrop);
@@ -64,9 +64,9 @@
             // 
             // buttonOutputFile
             // 
-            this.buttonOutputFile.Location = new System.Drawing.Point(145, 326);
+            this.buttonOutputFile.Location = new System.Drawing.Point(166, 349);
             this.buttonOutputFile.Name = "buttonOutputFile";
-            this.buttonOutputFile.Size = new System.Drawing.Size(127, 23);
+            this.buttonOutputFile.Size = new System.Drawing.Size(145, 25);
             this.buttonOutputFile.TabIndex = 6;
             this.buttonOutputFile.Text = "オリジナル画像出力";
             this.buttonOutputFile.UseVisualStyleBackColor = true;
@@ -75,40 +75,40 @@
             // labelOutputDir
             // 
             this.labelOutputDir.AutoSize = true;
-            this.labelOutputDir.Location = new System.Drawing.Point(16, 275);
+            this.labelOutputDir.Location = new System.Drawing.Point(18, 295);
             this.labelOutputDir.Name = "labelOutputDir";
-            this.labelOutputDir.Size = new System.Drawing.Size(127, 14);
+            this.labelOutputDir.Size = new System.Drawing.Size(137, 15);
             this.labelOutputDir.TabIndex = 10;
             this.labelOutputDir.Text = "画像出力先フォルダー";
             // 
             // textBoxOutputDir
             // 
-            this.textBoxOutputDir.Location = new System.Drawing.Point(12, 294);
+            this.textBoxOutputDir.Location = new System.Drawing.Point(14, 315);
             this.textBoxOutputDir.Name = "textBoxOutputDir";
-            this.textBoxOutputDir.Size = new System.Drawing.Size(260, 21);
+            this.textBoxOutputDir.Size = new System.Drawing.Size(297, 22);
             this.textBoxOutputDir.TabIndex = 9;
             // 
             // labelOutputFile
             // 
             this.labelOutputFile.AutoSize = true;
-            this.labelOutputFile.Location = new System.Drawing.Point(16, 225);
+            this.labelOutputFile.Location = new System.Drawing.Point(18, 241);
             this.labelOutputFile.Name = "labelOutputFile";
-            this.labelOutputFile.Size = new System.Drawing.Size(115, 14);
+            this.labelOutputFile.Size = new System.Drawing.Size(124, 15);
             this.labelOutputFile.TabIndex = 8;
             this.labelOutputFile.Text = "画像出力ファイル名";
             // 
             // textBoxOutputFile
             // 
-            this.textBoxOutputFile.Location = new System.Drawing.Point(12, 244);
+            this.textBoxOutputFile.Location = new System.Drawing.Point(14, 261);
             this.textBoxOutputFile.Name = "textBoxOutputFile";
-            this.textBoxOutputFile.Size = new System.Drawing.Size(260, 21);
+            this.textBoxOutputFile.Size = new System.Drawing.Size(297, 22);
             this.textBoxOutputFile.TabIndex = 7;
             // 
             // buttonReferOutputFile
             // 
-            this.buttonReferOutputFile.Location = new System.Drawing.Point(278, 244);
+            this.buttonReferOutputFile.Location = new System.Drawing.Point(318, 261);
             this.buttonReferOutputFile.Name = "buttonReferOutputFile";
-            this.buttonReferOutputFile.Size = new System.Drawing.Size(53, 23);
+            this.buttonReferOutputFile.Size = new System.Drawing.Size(61, 25);
             this.buttonReferOutputFile.TabIndex = 11;
             this.buttonReferOutputFile.Text = "参照";
             this.buttonReferOutputFile.UseVisualStyleBackColor = true;
@@ -116,9 +116,9 @@
             // 
             // buttonReferOutputDir
             // 
-            this.buttonReferOutputDir.Location = new System.Drawing.Point(279, 294);
+            this.buttonReferOutputDir.Location = new System.Drawing.Point(319, 315);
             this.buttonReferOutputDir.Name = "buttonReferOutputDir";
-            this.buttonReferOutputDir.Size = new System.Drawing.Size(53, 23);
+            this.buttonReferOutputDir.Size = new System.Drawing.Size(61, 25);
             this.buttonReferOutputDir.TabIndex = 12;
             this.buttonReferOutputDir.Text = "参照";
             this.buttonReferOutputDir.UseVisualStyleBackColor = true;
@@ -134,27 +134,28 @@
             this.statusStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mainToolStripStatusLabel,
             this.toolStripStatusLabelMain});
-            this.statusStripMain.Location = new System.Drawing.Point(0, 466);
+            this.statusStripMain.Location = new System.Drawing.Point(0, 501);
             this.statusStripMain.Name = "statusStripMain";
-            this.statusStripMain.Size = new System.Drawing.Size(344, 22);
+            this.statusStripMain.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            this.statusStripMain.Size = new System.Drawing.Size(393, 22);
             this.statusStripMain.TabIndex = 13;
             this.statusStripMain.Text = "statusStrip1";
             // 
             // mainToolStripStatusLabel
             // 
             this.mainToolStripStatusLabel.Name = "mainToolStripStatusLabel";
-            this.mainToolStripStatusLabel.Size = new System.Drawing.Size(0, 17);
+            this.mainToolStripStatusLabel.Size = new System.Drawing.Size(0, 16);
             // 
             // toolStripStatusLabelMain
             // 
             this.toolStripStatusLabelMain.Name = "toolStripStatusLabelMain";
-            this.toolStripStatusLabelMain.Size = new System.Drawing.Size(0, 17);
+            this.toolStripStatusLabelMain.Size = new System.Drawing.Size(0, 16);
             // 
             // buttonShowForm
             // 
-            this.buttonShowForm.Location = new System.Drawing.Point(12, 192);
+            this.buttonShowForm.Location = new System.Drawing.Point(14, 206);
             this.buttonShowForm.Name = "buttonShowForm";
-            this.buttonShowForm.Size = new System.Drawing.Size(170, 23);
+            this.buttonShowForm.Size = new System.Drawing.Size(194, 25);
             this.buttonShowForm.TabIndex = 14;
             this.buttonShowForm.Text = "トリミング設定フォームを開く";
             this.buttonShowForm.UseVisualStyleBackColor = true;
@@ -162,9 +163,9 @@
             // 
             // buttonOutputSelectedFile
             // 
-            this.buttonOutputSelectedFile.Location = new System.Drawing.Point(11, 326);
+            this.buttonOutputSelectedFile.Location = new System.Drawing.Point(13, 349);
             this.buttonOutputSelectedFile.Name = "buttonOutputSelectedFile";
-            this.buttonOutputSelectedFile.Size = new System.Drawing.Size(127, 23);
+            this.buttonOutputSelectedFile.Size = new System.Drawing.Size(145, 25);
             this.buttonOutputSelectedFile.TabIndex = 15;
             this.buttonOutputSelectedFile.Text = "トリミング画像出力";
             this.buttonOutputSelectedFile.UseVisualStyleBackColor = true;
@@ -173,17 +174,17 @@
             // listBoxItem
             // 
             this.listBoxItem.FormattingEnabled = true;
-            this.listBoxItem.ItemHeight = 14;
-            this.listBoxItem.Location = new System.Drawing.Point(11, 365);
+            this.listBoxItem.ItemHeight = 15;
+            this.listBoxItem.Location = new System.Drawing.Point(13, 391);
             this.listBoxItem.Name = "listBoxItem";
-            this.listBoxItem.Size = new System.Drawing.Size(261, 60);
+            this.listBoxItem.Size = new System.Drawing.Size(298, 64);
             this.listBoxItem.TabIndex = 16;
             // 
             // buttonDeleteItem
             // 
-            this.buttonDeleteItem.Location = new System.Drawing.Point(278, 394);
+            this.buttonDeleteItem.Location = new System.Drawing.Point(318, 422);
             this.buttonDeleteItem.Name = "buttonDeleteItem";
-            this.buttonDeleteItem.Size = new System.Drawing.Size(53, 23);
+            this.buttonDeleteItem.Size = new System.Drawing.Size(61, 25);
             this.buttonDeleteItem.TabIndex = 17;
             this.buttonDeleteItem.Text = "削除";
             this.buttonDeleteItem.UseVisualStyleBackColor = true;
@@ -191,9 +192,9 @@
             // 
             // buttonAddItem
             // 
-            this.buttonAddItem.Location = new System.Drawing.Point(278, 434);
+            this.buttonAddItem.Location = new System.Drawing.Point(318, 465);
             this.buttonAddItem.Name = "buttonAddItem";
-            this.buttonAddItem.Size = new System.Drawing.Size(53, 23);
+            this.buttonAddItem.Size = new System.Drawing.Size(61, 25);
             this.buttonAddItem.TabIndex = 18;
             this.buttonAddItem.Text = "追加";
             this.buttonAddItem.UseVisualStyleBackColor = true;
@@ -201,16 +202,16 @@
             // 
             // textBoxItemName
             // 
-            this.textBoxItemName.Location = new System.Drawing.Point(11, 435);
+            this.textBoxItemName.Location = new System.Drawing.Point(13, 466);
             this.textBoxItemName.Name = "textBoxItemName";
-            this.textBoxItemName.Size = new System.Drawing.Size(261, 21);
+            this.textBoxItemName.Size = new System.Drawing.Size(298, 22);
             this.textBoxItemName.TabIndex = 19;
             // 
             // buttonLoadItem
             // 
-            this.buttonLoadItem.Location = new System.Drawing.Point(278, 365);
+            this.buttonLoadItem.Location = new System.Drawing.Point(318, 391);
             this.buttonLoadItem.Name = "buttonLoadItem";
-            this.buttonLoadItem.Size = new System.Drawing.Size(53, 23);
+            this.buttonLoadItem.Size = new System.Drawing.Size(61, 25);
             this.buttonLoadItem.TabIndex = 20;
             this.buttonLoadItem.Text = "ロード";
             this.buttonLoadItem.UseVisualStyleBackColor = true;
@@ -219,9 +220,9 @@
             // radioButtonNormal
             // 
             this.radioButtonNormal.AutoSize = true;
-            this.radioButtonNormal.Location = new System.Drawing.Point(191, 193);
+            this.radioButtonNormal.Location = new System.Drawing.Point(218, 207);
             this.radioButtonNormal.Name = "radioButtonNormal";
-            this.radioButtonNormal.Size = new System.Drawing.Size(81, 18);
+            this.radioButtonNormal.Size = new System.Drawing.Size(88, 19);
             this.radioButtonNormal.TabIndex = 21;
             this.radioButtonNormal.TabStop = true;
             this.radioButtonNormal.Text = "手動保存";
@@ -230,9 +231,9 @@
             // radioButtonAuto
             // 
             this.radioButtonAuto.AutoSize = true;
-            this.radioButtonAuto.Location = new System.Drawing.Point(191, 216);
+            this.radioButtonAuto.Location = new System.Drawing.Point(218, 231);
             this.radioButtonAuto.Name = "radioButtonAuto";
-            this.radioButtonAuto.Size = new System.Drawing.Size(81, 18);
+            this.radioButtonAuto.Size = new System.Drawing.Size(88, 19);
             this.radioButtonAuto.TabIndex = 22;
             this.radioButtonAuto.TabStop = true;
             this.radioButtonAuto.Text = "自動保存";
@@ -240,9 +241,9 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 488);
+            this.ClientSize = new System.Drawing.Size(393, 523);
             this.Controls.Add(this.radioButtonAuto);
             this.Controls.Add(this.radioButtonNormal);
             this.Controls.Add(this.buttonLoadItem);
@@ -262,7 +263,7 @@
             this.Controls.Add(this.buttonOutputFile);
             this.Controls.Add(this.pictureBoxThumbnail);
             this.Name = "MainForm";
-            this.Text = "ImageCutTool";
+            this.Text = "ImageCut";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.MouseEnter += new System.EventHandler(this.MainForm_MouseEnter);
