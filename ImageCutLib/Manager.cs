@@ -16,6 +16,7 @@ using System.Drawing.Imaging;
 // System.Windows.Forms を持ち込まない。
 
 namespace ImageCutLib {
+
     /// <summary>
     /// 画像切り出し処理を行うクラスです。
     /// @author h.adachi
