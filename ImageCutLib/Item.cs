@@ -15,7 +15,6 @@ using System;
 using System;
 
 namespace ImageCutLib {
-
     /// <summary>
     /// 設定を保持するオブジェクトです。
     /// @author h.adachi
